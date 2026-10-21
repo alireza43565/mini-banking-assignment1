@@ -1,0 +1,23 @@
+
+Python: 3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]
+SQLite: 3.53.1
+OS: Windows-10-10.0.19045-SP0
+
+test_all_required_errors (test_banking.BankingTests.test_all_required_errors) ... ok
+test_amount_validation_including_long_precision (test_banking.BankingTests.test_amount_validation_including_long_precision) ... ok
+test_concurrent_overdraft_prevention (test_banking.BankingTests.test_concurrent_overdraft_prevention) ... ok
+test_concurrent_withdrawals_no_lost_updates (test_banking.BankingTests.test_concurrent_withdrawals_no_lost_updates) ... ok
+test_confirmed_commit_survives_kill_and_restart (test_banking.BankingTests.test_confirmed_commit_survives_kill_and_restart) ... ok
+test_exception_after_update_rolls_back (test_banking.BankingTests.test_exception_after_update_rolls_back) ... ok
+test_kill_during_uncommitted_write_rolls_back (test_banking.BankingTests.test_kill_during_uncommitted_write_rolls_back) ... ok
+test_logging_required_fields (test_banking.BankingTests.test_logging_required_fields) ... ok
+test_malformed_inputs_do_not_stop_server (test_banking.BankingTests.test_malformed_inputs_do_not_stop_server) ... ok
+test_maximum_clients_is_enforced (test_banking.BankingTests.test_maximum_clients_is_enforced) ... ok
+test_normal_operations_and_exact_cents (test_banking.BankingTests.test_normal_operations_and_exact_cents) ... ok
+test_oversized_and_unfinished_requests (test_banking.BankingTests.test_oversized_and_unfinished_requests) ... ok
+test_read_does_not_see_uncommitted_update (test_banking.BankingTests.test_read_does_not_see_uncommitted_update) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 7.377s
+
+OK
